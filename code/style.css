@@ -26,7 +26,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: color 10s linear infinite;
+  animation: color 13s linear infinite;
+  -webkit-animation: color 13s linear infinite;
 }
 .sun {
   width: 18vw;
@@ -44,7 +45,8 @@ h1 {
   aspect-ratio: 1;
   background-color: #000;
   border-radius: 50%;
-  animation: passing 10s ease-in-out infinite;
+  animation: passing 13s ease-in-out infinite;
+  -webkit-animation: passing 13s ease-in-out infinite;
 }
 @keyframes passing {
   0% {
