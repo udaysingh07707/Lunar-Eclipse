@@ -12,6 +12,10 @@ This is a mini front-end project that visually represents a **lunar eclipse** us
 - HTML5
 - CSS3 (with `@keyframes`, `border-radius`, `animation`, etc.)
 
+## 🔍 Preview
+
+![Lunar Eclipse Animation](/preview.png)
+
 "If you use this project, feel free to ⭐ it or let me know — I'd love to see your work!"
 
 
