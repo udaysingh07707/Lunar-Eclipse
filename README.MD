@@ -15,7 +15,7 @@ This is a mini front-end project that visually represents a **lunar eclipse** us
 
 ## 🔍 Preview
 
-Lunar Eclipse Animation (preview.png)
+Lunar Eclipse Animation (/preview.png)
 
 "If you use this project, feel free to ⭐ it or let me know — I'd love to see your work!"
 
