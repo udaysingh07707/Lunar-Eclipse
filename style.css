@@ -3,34 +3,42 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  width: 100vw;
-  height: 100vh;
-  background-color: #ffe4d6;
+html{
+  font-size: 62.5%;
 }
+body {
+  min-height: 100vh;
+  background-color: #ffe4d6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
 h1 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: capitalize;
   color: #78521e;
+  margin-bottom: 2rem;
 }
+
 .universe {
-  width: 40vw;
+  width: 90%;
+  max-width: 40rem;
   aspect-ratio: 1;
   background-color: #ffbb5c;
   position: relative;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   border-radius: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   animation: color 13s linear infinite;
-  -webkit-animation: color 13s linear infinite;
 }
+
 .sun {
-  width: 18vw;
+  width: 45%;
   aspect-ratio: 1;
   background-color: #e25e3e;
   border-radius: 50%;
@@ -39,15 +47,15 @@ h1 {
 }
 
 .sun::after {
-  content: " ";
+  content: "";
   position: absolute;
-  width: 18vw;
+  width: 100%;
   aspect-ratio: 1;
   background-color: #000;
   border-radius: 50%;
   animation: passing 13s ease-in-out infinite;
-  -webkit-animation: passing 13s ease-in-out infinite;
 }
+
 @keyframes passing {
   0% {
     left: 100%;
@@ -76,5 +84,20 @@ h1 {
   }
   100% {
     background-color: #ffbb5c;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .universe {
+    width: 100%;
+  }
+
+  .sun {
+    width: 50%;
   }
 }
